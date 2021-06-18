@@ -7,7 +7,5 @@ public class Main {
         System.out.println("Hello World");
 
 
-        //
-        long viewCount = 3_123_456_789L;
     }
 }
