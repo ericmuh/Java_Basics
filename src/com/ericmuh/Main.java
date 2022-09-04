@@ -31,5 +31,11 @@ public class Main { // This is a class named Main, that is public
                 boolean || 1     ||true / false
         */
 
+        // DECLARING VAIRIABLES
+        Byte someByte    =  40;
+        int someInt      =  50;
+        float someFloat  =  50.5F;
+        char someChar    =  "Q";
+        boolean someBol  = true
     }
 }
