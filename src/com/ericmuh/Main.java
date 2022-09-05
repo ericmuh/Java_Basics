@@ -22,13 +22,13 @@ public class Main { // This is a class named Main, that is public
                 Tpype   || Bytes || Range
             ==========================
                 Byte    || 1     ||    [-128, 127]
-                short   || 2     ||    [-32K, 32K]
-                int     || 4      ||     [-2B, 2B]
-                long    || 8     ||
-                float   || 4     ||
-                double  || 8     ||
-                char    || 2     ||A, B, C, …
-                boolean || 1     ||true / false
+                short   || 2     ||    [-32K, 32K] ==> 32 bits
+                int     || 4     ||    [-2B, 2B]   ==> 64 bits
+                long    || 8     ||                ==> 64 bits
+                float   || 4     ||    decimals    ==> 32 bits
+                double  || 8     ||    decimals    ==> 64 bits
+                char    || 2     ||  A, B, C, …
+                boolean || 1     ||  true / false
         */
 
         // DECLARING VAIRIABLES
