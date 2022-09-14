@@ -136,6 +136,10 @@ public class App { // This is a class named Main, that is public
         System.out.println(addTwoNumbers(2, 6));
         System.out.println(addTwoNumbers(50.4, 1.5));
 
+        // OOP
+        Car myCar = new Car("Volvo", 1998);
+        myCar.carDetails();
+
     }
 
     static int addTwoNumbers(int a, int b) {
@@ -143,9 +147,41 @@ public class App { // This is a class named Main, that is public
 
     }
 
-    // Method OverLoading : https://www.w3schools.com/java/java_methods_overloading.asp
-     static double addTwoNumbers(double a, double b) {
+    // Method OverLoading :
+    // https://www.w3schools.com/java/java_methods_overloading.asp
+    static double addTwoNumbers(double a, double b) {
         return a + b;
 
     }
+
+    // Recursion
+    static int sum(int c) {
+        if (c > 0) {
+            return c + sum(c - 1);
+        } else {
+            return 0;
+        }
+    }
+
+}
+
+// OOP
+class Car {
+    String brand; // fields/attributes for he car Class
+    final  double PI = 3.142; // final key word for constant variable ( cant be overriden)
+    int mftDate;
+
+    // methods: https://www.w3schools.com/java/java_class_methods.asp
+    public String carDetails() {
+        System.out.println(this.brand + " " + this.mftDate);
+        return this.brand + this.mftDate;
+    }
+
+    // Constructor Method
+    public Car(String brand, int mftDate) {
+        this.brand = brand;
+        this.mftDate = mftDate;
+
+    }
+
 }
