@@ -3,7 +3,9 @@ public class App { // This is a class named Main, that is public
     public static void main(String[] args) throws Exception {
 
         System.out.println("Hello World"); // Print Hello World
-        // DECLARING VAIRIABLES
+        
+       // DECLARING VAIRIABLES
+
         // PRIMITIVES
 
         Byte someByte = 40;
