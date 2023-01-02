@@ -4,17 +4,18 @@ public class App { // This is a class named Main, that is public
 
         System.out.println("Hello World"); // Print Hello World
         // DECLARING VAIRIABLES
+        // PRIMITIVES
 
-        // Byte someByte = 40;
-        // System.out.println(someByte);
-        // int someInt = 50;
-        // System.out.println(someInt);
-        // float someFloat = 50.5F;
-        // System.out.println(someFloat);
-        // char someChar = 'Q';
-        // System.out.println(someChar);
-        // boolean someBol = true;
-        // System.out.println(someBol);
+        Byte someByte = 40;
+        
+        int someInt = 50;
+        
+        float someFloat = 50.5F;
+        
+        char someChar = 'Q';
+        
+        boolean someBol = true;
+        
 
         // TYPE casting
         // intergers to floats
@@ -24,6 +25,7 @@ public class App { // This is a class named Main, that is public
         byte myConvertedByte = (byte) myConvertedDouble; // --> narrow casting ( manual )
 
         System.out.println(myConvertedByte);
+
         // STRINGS
         String myName = "Eric";
 
