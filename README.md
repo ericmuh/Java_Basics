@@ -51,7 +51,7 @@ To declare a variable we use its datatype and then name;
   | long    | 8     | ==> 64 bits
   | float   | 4     | decimals ==> 32 bits
   | double  | 8     | decimals ==> 64 bits
-  | char    | 2     | 'A', 'B', 'C', …
+  | char    | 2     | 'A', 'B', 'C', … ==> 16bits
   | boolean | 1     | true / false
 
 
