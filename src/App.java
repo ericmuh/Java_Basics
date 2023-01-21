@@ -168,7 +168,7 @@ public class App { // This is a class named Main, that is public
 // OOP
 class Car {
     String brand; // fields/attributes for he car Class
-    final  double PI = 3.142; // final key word for constant variable ( cant be overriden)
+    final double PI = 3.142; // final key word for constant variable ( cant be overriden)
     int mftDate;
 
     // methods: https://www.w3schools.com/java/java_class_methods.asp
@@ -185,3 +185,5 @@ class Car {
     }
 
 }
+
+
